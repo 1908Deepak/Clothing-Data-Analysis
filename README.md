@@ -87,8 +87,8 @@ Step 6 – Applying the Top N Filter
  
  Following DAX expression was written for different measure ,
  
-         Discount Percentage = DIVIDE('Men+Tshirt'[Marked Price]-'Men+Tshirt'[Sales Price],'Men+Tshirt'[Marked Price])*100
-         Cost Price = DIVIDE(100*'Men+Tshirt'[Sales Price],100+'Men+Tshirt'[Profit Percentage])
+         Discount Percentage = DIVIDE('Clothing Data'[Marked Price]-'Clothing Data'[Sales Price],'Clothing Data'[Marked Price])*100
+         Cost Price = DIVIDE(100*'Clothing Data'[Sales Price],100+'Clothing Data'[Profit Percentage])
          Profit Percentage = RANDBETWEEN(2,17)
     
  A bar chart visual was used to represent the above measures.
